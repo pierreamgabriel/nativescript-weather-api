@@ -165,10 +165,3 @@ The `dailyForecast` function only accepts latitude and longitude to determine th
 ## NS compatibility
 
 Update your NS version to 8+, or you might get an error with the @nativescript/geolocation plugin.
-
-## Contact me
-
-For job opportunities, you can contact me at pierremacedodev@gmail.com. For issues or feature requests, please use the plugin repository.
-
-## Donate [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=W93EHM59W7BA8)
-It's hard to keep plugins updated and bug-free without financial support. If you found this plugin useful, consider donating.
