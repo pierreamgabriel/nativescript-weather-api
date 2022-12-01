@@ -1,6 +1,6 @@
 {
   "name": "nativescript-weather-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time weather information for any location on Earth, including over 200,000 cities.",
   "main": "index.js",
   "nativescript": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pierremacedo/nativescript-weather-api.git"
+    "url": "https://github.com/pierreamgabriel/nativescript-weather-api.git"
   },
   "dependencies": {
     "@nativescript/geolocation": "^7.2.1"
@@ -19,12 +19,12 @@
     "weather api" 
   ],
   "author": {
-	 "name": "Pierre Macedo",
-	 "email": "pierremacedodev@gmail.com"
+	 "name": "Pierre Gabriel",
+	 "email": "pierregabrieldev@gmail.com"
   },
-  "license": "GNU General Public License v3.0",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pierremacedo/nativescript-weather-api/issues"
+    "url": "https://github.com/pierreamgabriel/nativescript-weather-api/issues"
   },
-  "homepage": "https://github.com/pierremacedo/nativescript-weather-api"
+  "homepage": "https://github.com/pierreamgabriel/nativescript-weather-api"
 }
