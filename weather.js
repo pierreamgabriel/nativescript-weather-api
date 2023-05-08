@@ -1,9 +1,9 @@
-var current;
+let current;
 
 export async function getWeather(args) {
     
-	var result;
-    var URL; 
+	let result;
+    let URL; 
 
 	if (args.city != null) {
 		
@@ -34,8 +34,8 @@ export async function getWeather(args) {
 
 export async function dailyForecast(args) {
 	
-	var result;
-	var URL = "https://api.openweathermap.org/data/2.5/onecall?lat=" + args.lat + "&lon=" + args.lon + "&exclude=hourly,minutely&appid=" + args.key + "&units=" + args.unit + "&lang=" + args.lang;
+	let result;
+	const URL = "https://api.openweathermap.org/data/2.5/onecall?lat=" + args.lat + "&lon=" + args.lon + "&exclude=hourly,minutely&appid=" + args.key + "&units=" + args.unit + "&lang=" + args.lang;
 	
 	await fetch(URL)
     .then(res => res.json())

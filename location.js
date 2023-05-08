@@ -1,8 +1,8 @@
-var geolocation = require("@nativescript/geolocation");
+const geolocation = require("@nativescript/geolocation");
 
 export async function getLocation() {
    
-var result;
+let result;
 
 if (!geolocation.isEnabled()) {
 await geolocation.enableLocationRequest().then(res => {
